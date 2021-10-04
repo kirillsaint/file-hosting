@@ -12,7 +12,6 @@ if (!is_dir('../uploads')) {
 
 $extension = pathinfo($image["name"], PATHINFO_EXTENSION);
 
-time()
 
 $fileName = time() . ".$extension";
 
